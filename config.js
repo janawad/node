@@ -2,13 +2,13 @@ var mysql = require('mysql');
 
 var connection = mysql.createConnection({
 
-	host : 'localhost',
+	host : 'us-cdbr-iron-east-04.cleardb.net',
 
-	user : 'root',
+	user : 'b9c0273ea47152',
 
-	password: 'root',
+	password: '81dd6b2d',
 
-	database: 'vapp'
+	database: 'heroku_942e356d507640f'
 
 });
 
