@@ -1,0 +1,16 @@
+html
+	head
+	body
+		h1 #{msg}
+		form(action='/register' method='POST')
+			input(type='text' name='name')
+			br
+			input(type='text' name='email')
+			br
+			input(type='password' name='password')
+			br
+			input(type='text' name='conpassword')
+			br
+			input(type='number' name='phone')
+			br
+			input(type='submit' name='submit' value='submit')

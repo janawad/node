@@ -1,0 +1,12 @@
+html
+	head
+	body
+		
+		form(action='adds/add' method='POST')
+			input(type='text' name='name')
+			
+			input(type='text' class='column' name='email' value='#{user.name}' style='display:none;')
+			br
+			input(type='text' name='image')
+			br
+			input(type='submit' name='submit' value='submit')

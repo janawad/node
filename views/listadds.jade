@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= title
+  
+  table
+    for users in values
+        tr
+        td= users.id
+        td= users.name
+        td= users.email
+        td= users.image
+        td
+         a(href='/adds/edit/#{users.id}') edit
+        td
+         a(href='/adds/delete/#{users.id}') delete
+       

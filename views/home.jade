@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	h1= title
+	body
+	
+	h1 welcome #{user.name}
+	a(href='/adds') add
+	br
+	a(href='/adds/listadds') list
+	br
+	a(href='/logout') logout
+
+

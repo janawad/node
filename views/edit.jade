@@ -1,0 +1,12 @@
+html
+	head
+	body
+		
+		form(action='/adds/edit/#{stud.id}' method='POST')
+			input(type='text' name='name' value='#{stud.name}')
+			
+			input(type='text' class='column' name='email' value='#{stud.name}' style='display:none;')
+			br
+			input(type='text' name='image' value="#{stud.image}")
+			br
+			input(type='submit' name='submit' value='submit')
